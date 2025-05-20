@@ -15,8 +15,29 @@ header {
   background-color: #dcdcdc;
 }
 
+header nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: 90rem;
+  margin: auto;
+}
+
 header nav .links {
-  background-color: red;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header nav .links .logo {
+  color: #0197fe;
+}
+header nav .links a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.732);
 }
 
 header nav .btns {

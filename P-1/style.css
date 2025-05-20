@@ -29,7 +29,7 @@ header nav .links {
   /* background-color: red; */
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 header nav .links .logo {
@@ -41,5 +41,24 @@ header nav .links a {
 }
 
 header nav .btns {
-  background-color: green;
+  /* background-color: green; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+header nav .btns a {
+  text-decoration: none;
+}
+
+header nav .btns button {
+  background-color: #0197fe;
+  color: white;
+  border: none;
+  height: 80%;
+  padding: 0 20px;
+  border-radius: 5px;
+  /*cursor: pointer;
+  */
 }

@@ -62,3 +62,44 @@ header nav .btns button {
   /*cursor: pointer;
   */
 }
+
+/*? visibility */
+
+.visibility {
+  max-width: 35rem;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.visibility h2 {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+.visibility h2 > span {
+  color: #0197fe;
+}
+
+.visibility p {
+  /* font-size: 20px; */
+  color: rgba(0, 0, 0, 0.759);
+}
+
+/* ? Main section */
+.container {
+  height: 50rem;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.container .wrapper {
+  max-width: 80rem;
+  height: 100%;
+  margin: auto;
+  background-color: #f0f0f0;
+  padding: 22px;
+  border: 1px solid black;
+}
+
+.container .mini-nav {
+}
